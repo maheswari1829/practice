@@ -1,0 +1,14 @@
+What is git cherry-pick?
+git cherry-pick in Git is used to copy a specific commit from one branch and apply it to another branch.
+Instead of merging the whole branch, you pick only the changes you need.
+Basic Syntax: git cherry-pick <commit_id>
+
+How it works ?
+You are on target branch (example: master)
+Another branch (example: version1) has some commits
+You pick one commit using its ID
+Git applies those changes to your current branch
+
+Example Scenario
+master → main branch
+version1 → feature branch
