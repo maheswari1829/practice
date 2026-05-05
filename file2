@@ -1,3 +1,27 @@
-welcome to jenkins class 
-we will discuss on jenkins jobs 
-deploying a web application wsing tomact 
+wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/rpm/jenkins.repo
+    3  sudo yum install java-21-amazon-corretto -y
+    4  java -version
+    5  yum install jenkins -y
+    6  sudo systemctl enable jenkins
+    7  sudo systemctl start jenkins
+    8  sudo systemctl status jenkins
+    9  cat /var/lib/jenkins/secrets/initialAdminPassword
+  
+   12  systemctl restart jenkins
+   13  yum git -y
+   14  yum install git -y
+   15  cd /var/lib/jenkins/workspace/job1
+   16  ll
+   17  cat file3
+   18  yum install maven -y
+   19  mvn -v
+   20  cd
+   21  mvn -v
+   22   alternatives --config java
+   23  export JAVA_HOME=/usr/lib/jvm/java-21-amazon-corretto
+   24       export PATH=$JAVA_HOME/bin:$PATH
+   25       echo "export JAVA_HOME=/usr/lib/jvm/java-21-amazon-corretto" >> ~/.bashrc
+   26       echo "export PATH=$JAVA_HOME/bin:$PATH" >> ~/.bashrc
+   27       source ~/.bashrc
+   28  mvn -v
+   29  history
